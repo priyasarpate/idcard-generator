@@ -10,12 +10,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fabstract-blue-wave-background-with-stripes-vector-1593285&psig=AOvVaw0XKmRXm6QnmdsGQjbwLYYN&ust=1606594363465000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOi3m8bEo-0CFQAAAAAdAAAAABAJ');
+  transform: translate(-50%,-50%);  
   padding: 35px 15px 15px;
   border-radius: 5px;
   font-size: x-small;
-
+background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190718/pngtree-abstract-blue-wave-background-image_283796.jpg');
 }
 
 .id-design {
@@ -51,7 +50,6 @@
 .id-design{
   width: 300px;
   height: 400px;
-  background: #fff;
   padding: 20px 20px 0;
   position: relative;
   border-radius: 5px;
@@ -70,7 +68,7 @@
 .id-desgin{
   background-color: lightgrey;
   width: 300px;
-  border: 15px solid green;
+  border: 15px solid white;
   padding: 50px;
   margin: 20px;
 }
@@ -80,10 +78,10 @@
   background: red;
 }
 .idcard{
-  margin-top: 55%;
+  margin-top: 50%;
   width: auto;
   height: auto;
-  background: green;
+  background: white;
  
 }
 
