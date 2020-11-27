@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './form.css'
+import './form.css';
+import './idcard.css';
 import Idcard from './Idcard';
 
 class Form extends Component {
@@ -86,26 +87,30 @@ class Form extends Component {
               </div>
 
               <div className="form-group">
-                <label for="inputAddress">Class:</label>
-                <input type="text" className="form-control" id="inputAddress" placeholder="Class"
-                  value={this.state.class} onChange={this.handleChangeClass}
-                />
-              </div>
-
-              <div className="form-group">
                 <label for="inputAddress2">Address:</label>
                 <input type="text" className="form-control" id="inputAddress2" placeholder="Student Address"
                   value={this.state.address} onChange={this.handleChangeAddress}
                 />
               </div>
 
+            
               <div className="row">
+
+              <div className="form-group col-md-6">
+                <label for="inputAddress">Class:</label>
+                <input type="text" className="form-control" id="inputAddress" placeholder="Class"
+                  value={this.state.class} onChange={this.handleChangeClass}
+                />
+              </div>
                 <div className="form-group col-md-6">
                   <label for="inputCity">D-O-B: </label>
                   <input type="text" className="form-control" id="inputCity" placeholder='D-O-B'
                     value={this.state.DOB} onChange={this.handleChangeDOB}
                   />
                 </div>
+                </div>
+
+                <div class="form-row">
 
                 <div className="form-group col-md-6">
                   <label for="inputZip">BloodGroup:</label>
@@ -113,22 +118,25 @@ class Form extends Component {
                     value={this.state.bloodGroup} onChange={this.handleChangeBloodGroup}
                   />
                 </div>
-              </div>
-
-              <div class="form-row">
                 <div className="form-group col-md-6">
                   <label for="inputEmail4">Contact:</label>
                   <input type="email" className="form-control" id="inputEmail4" placeholder="Contact Number"
                     value={this.state.contact} onChange={this.handleChangeContact}
                   />
                 </div>
+              </div>
+
+              <div class="form-row">
+
+              
                 <div className="form-group col-md-6">
                   <label for="inputPassword4">Year:</label>
                   <input type="text" className="form-control" id="inputPassword4" placeholder="Acadmic Year"
                     value={this.state.year} onChange={this.handleChangeYear}
                   />
                 </div>
-                <div className="form-group">
+                
+                <div className="form-group col-md-6">
                   <label for="inputPassword4">Student Code:</label>
                   <input type="text" className="form-control" id="inputPassword4" placeholder="Student Code"
                     value={this.state.code} onChange={this.handleChangeStudentCode}

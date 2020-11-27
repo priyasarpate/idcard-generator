@@ -3,7 +3,7 @@ import './idcard.css';
 
 function Idcard(props) {
     return (
-            
+            <div className='id-design'>
             <div className='idcard'>
                 <h1></h1>
                 <p className="input-value-1">
@@ -31,7 +31,7 @@ function Idcard(props) {
                     Student Code:
               <span className="highlight"> {props.data.code}</span></p>
               </div>
-          
+              </div>
             )
         }
         export default Idcard;

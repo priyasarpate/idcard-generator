@@ -2,6 +2,10 @@
   /* display: grid;
   grid-template-columns: 2fr 1fr; */
 }
+body{
+  /* background-image: url('https://static.rfstat.com/bloggers_folders/user_2591565/my_media/What_is_an_Explainer_Video_and_Why/a4a17b6f-231c-4a2a-98c6-378e0beffecb.png'); */
+background-repeat: no-repeat;
+}
 
 .App-logo {
   height: 40vmin;
