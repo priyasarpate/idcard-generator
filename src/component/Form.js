@@ -9,7 +9,7 @@ class Form extends Component {
     super(props)
     this.state = {
       college: 'Collge Name',
-      name: 'Name',
+      name: null,
       class: null,
       address: null,
       DOB: null,
@@ -73,7 +73,7 @@ class Form extends Component {
     })
   }
 
-  handleChangeName = (event) => {
+  handleChangeCollege = (event) => {
     this.setState({
       college: event.target.value
 
@@ -89,7 +89,7 @@ class Form extends Component {
           <div className="form-group">
                 <label for="inputAddress"></label>
                 <input type="text" className="form-control-top" id="inputAddress" placeholder="college Name"
-                  value={this.state.college} onChange={this.handleChangeName}
+                  value={this.state.college} onChange={this.handleChangeCollege}
                 />
               </div>
             <form>

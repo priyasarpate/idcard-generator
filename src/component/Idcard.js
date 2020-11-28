@@ -10,9 +10,11 @@ function Idcard(props) {
 
                               <span className="highlight"> {props.data.college}</span></h6>
                   </div>
-                  <h3 className="input-value-1">
 
-                        <span className="highlight"> {props.data.name}</span></h3>
+
+                  <h5 className="input-value-2">
+                                    Name:
+              <span className="highlight"> {props.data.name}</span></h5>
                                 
                         <div className='id-img'>
                               <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSp88-doiHJk4tHoxICem_6QnsKlOR1XpMoQ&usqp=CAU' />
