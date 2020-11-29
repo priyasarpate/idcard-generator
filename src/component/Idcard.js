@@ -1,7 +1,19 @@
 import React from 'react';
 import './idcard.css';
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
 function Idcard(props) {
+      let printDocument = () => {
+            const input = document.getElementById('divToPrint')
+            html2canvas(input)
+               .then((canvas) => {
+                  const imgData = canvas.toDataURL('img/png')
+                  const pdf = new jsPDF();
+                  pdf.addImage(imgData, 'JPEG', 0, 0)
+                  pdf.save('invoice.pdf')
+               })
+         }
       return (
             <div className='id-design'>
                   <div className='small-box'></div>
@@ -46,8 +58,10 @@ function Idcard(props) {
                                     Student Code:
               <span className="highlight"> {props.data.code}</span></p>
                         </div>
-                  
+
             </div>
+
+
       )
 }
 export default Idcard;
