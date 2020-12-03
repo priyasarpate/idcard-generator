@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/idcard-generator/static/css/main.929694cb.chunk.css",
+    "main.js": "/idcard-generator/static/js/main.dea61110.chunk.js",
+    "main.js.map": "/idcard-generator/static/js/main.dea61110.chunk.js.map",
+    "runtime-main.js": "/idcard-generator/static/js/runtime-main.b3bd44d4.js",
+    "runtime-main.js.map": "/idcard-generator/static/js/runtime-main.b3bd44d4.js.map",
+    "static/js/2.a09fd31d.chunk.js": "/idcard-generator/static/js/2.a09fd31d.chunk.js",
+    "static/js/2.a09fd31d.chunk.js.map": "/idcard-generator/static/js/2.a09fd31d.chunk.js.map",
+    "static/js/3.d424fabf.chunk.js": "/idcard-generator/static/js/3.d424fabf.chunk.js",
+    "static/js/3.d424fabf.chunk.js.map": "/idcard-generator/static/js/3.d424fabf.chunk.js.map",
+    "static/js/4.4e41b9b2.chunk.js": "/idcard-generator/static/js/4.4e41b9b2.chunk.js",
+    "static/js/4.4e41b9b2.chunk.js.map": "/idcard-generator/static/js/4.4e41b9b2.chunk.js.map",
+    "index.html": "/idcard-generator/index.html",
+    "precache-manifest.bb918c7e2707b38ec0f0e4198b9eec56.js": "/idcard-generator/precache-manifest.bb918c7e2707b38ec0f0e4198b9eec56.js",
+    "service-worker.js": "/idcard-generator/service-worker.js",
+    "static/css/main.929694cb.chunk.css.map": "/idcard-generator/static/css/main.929694cb.chunk.css.map",
+    "static/js/2.a09fd31d.chunk.js.LICENSE.txt": "/idcard-generator/static/js/2.a09fd31d.chunk.js.LICENSE.txt",
+    "static/js/3.d424fabf.chunk.js.LICENSE.txt": "/idcard-generator/static/js/3.d424fabf.chunk.js.LICENSE.txt",
+    "static/js/4.4e41b9b2.chunk.js.LICENSE.txt": "/idcard-generator/static/js/4.4e41b9b2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3bd44d4.js",
+    "static/js/3.d424fabf.chunk.js",
+    "static/css/main.929694cb.chunk.css",
+    "static/js/main.dea61110.chunk.js"
+  ]
+}
